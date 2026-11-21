@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=calabi
 PKG_VERSION:=2.8.0~openwrtdev6
-PKG_RELEASE:=2
+PKG_RELEASE:=3
 PKG_LICENSE:=Apache-2.0
 PKG_LICENSE_FILES:=LICENSE NOTICE
 PKG_FILE_DEPENDS:=$(CURDIR)/local-input

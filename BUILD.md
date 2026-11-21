@@ -2,7 +2,7 @@
 
 Follow these steps on a Linux x86_64 host with Bash, Git, Go, a C compiler, Python 3, GNU make, tar, gpg, OpenSSL and fakeroot. Keep both work directories clean and record the integration repository commit used for the build.
 
-1. Use [core-source.json](core-source.json) to clone the public core repository. Check out the pinned commit in a detached worktree and compare both `git rev-parse HEAD` and `git rev-parse 'HEAD^{tree}'` with the lock. Use the Go toolchain recorded in the lock. Leave `GOWORK` unset for the daemon so its own workspace is used.
+1. Use [core-source.json](core-source.json) to clone the public core repository. Check out the pinned commit in a detached worktree and compare both `git rev-parse HEAD` and `git rev-parse 'HEAD^{tree}'` with the lock. Use the Go toolchain and daemon linker flags recorded in the lock. The platform API and console defaults come from the public core release manifest. Leave `GOWORK` unset for the daemon so its own workspace is used.
 2. Verify the OpenWrt SDK archive against the official signed checksum list, then compare its SHA-256 with the lock. Use the SDK for OpenWrt 23.05.6 x86/64 and its pinned feed revisions. Install the feed definitions if building runtime dependencies as well. Check out the LuCI revision in the lock and build `po2lmo` with `make -C modules/luci-base/src po2lmo`. On WSL, make sure the install tool and fakeroot produce archive files owned by `root:root`. [Official SDK and signatures](https://downloads.openwrt.org/releases/23.05.6/targets/x86/64/)
 3. Fetch the released public core build manifest linked in the lock and verify its SHA-256. Reconstruct the public platform CA from `inputs.edge_ca.pem` by joining its lines with LF and adding a trailing LF. Verify the PEM and DER hashes in the lock using `sha256sum` and `openssl x509 -outform DER`. In a disposable core checkout, replace the file at `inputs.edge_ca.path` with that PEM before building. This preserves platform certificate verification. [Public core 2.8.0 manifest](https://github.com/calabinet/calabi/releases/download/v2.8.0/build-manifest.json)
 4. Build the two static Linux amd64 binaries and the translation catalog. The following shell commands assume the integration and core checkouts and the verified SDK have already been prepared. Set `integration`, `core`, `sdk` and `po2lmo` to their absolute paths. Use a fresh SDK extraction per build.
@@ -16,8 +16,9 @@ Follow these steps on a Linux x86_64 host with Bash, Git, Go, a C compiler, Pyth
 
    unset GOWORK GO111MODULE
    export CGO_ENABLED=0 GOOS=linux GOARCH=amd64 GOAMD64=v1 GOTOOLCHAIN=local
+   core_ldflags="$(python3 -c 'import json,sys; print(json.load(open(sys.argv[1]))["core"]["ldflags"])' "$integration/core-source.json")"
    go -C "$core/apps/client" build -trimpath -buildvcs=false \
-       -ldflags '-s -w -X main.version=2.8.0' -o "$core_inputs/calabi" ./cmd/calabi
+       -ldflags "$core_ldflags" -o "$core_inputs/calabi" ./cmd/calabi
    bridge="$integration/luci-app-calabi/bridge"
    go -C "$core/apps/client" build -trimpath -buildvcs=false \
        -ldflags '-s -w' -o "$luci_inputs/calabi-rpc" "$bridge/main.go" "$bridge/update.go"
