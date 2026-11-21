@@ -1,0 +1,1 @@
+iifname "calabi-mesh" oifname @calabi_egress ip saddr 100.64.0.0/10 ip daddr @calabi_published_v4 ct state new counter accept comment "Calabi approved IPv4 subnets"

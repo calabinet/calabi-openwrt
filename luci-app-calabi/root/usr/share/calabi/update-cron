@@ -1,0 +1,19 @@
+#!/bin/sh
+set -eu
+
+job='*/15 * * * * /usr/libexec/rpcd/calabi update-tick'
+case "$1" in install|remove) ;; *) exit 2 ;; esac
+before=$(mktemp /tmp/calabi-cron.XXXXXX)
+after=$(mktemp /tmp/calabi-cron.XXXXXX)
+trap 'rm -f "$before" "$after"' EXIT
+trap 'exit 1' INT HUP TERM
+crontab -l > "$before" 2>/dev/null || {
+	[ ! -s /etc/crontabs/root ] || exit 1
+}
+awk -v job="$job" '$0 != job' "$before" > "$after"
+[ "$1" != install ] || printf '%s\n' "$job" >> "$after"
+cmp -s "$before" "$after" || crontab "$after"
+# OpenWrt skips starting cron at boot when the crontab directory is empty.
+if [ "$1" = install ] && /etc/init.d/cron enabled && ! /etc/init.d/cron running; then
+	/etc/init.d/cron start
+fi

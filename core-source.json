@@ -1,0 +1,34 @@
+{
+  "schema": "calabi.openwrt.build-inputs/v1",
+  "core": {
+    "repository": "https://github.com/calabinet/calabi.git",
+    "commit": "571b2f6cb68516f5a49861c2737e542d0de918ec",
+    "tree": "a91a77e11fe390b9485b4ffd7380eba14c1561f3",
+    "version": "2.8.0",
+    "go": "go1.26.3",
+    "source_date_epoch": 1795228304
+  },
+  "sdk": {
+    "series": "23.05",
+    "release": "23.05.6",
+    "target": "x86/64",
+    "arch": "x86_64",
+    "source_commit": "539228933caab51a21c239ec3b7e8f7a366e96b9",
+    "archive": "https://downloads.openwrt.org/releases/23.05.6/targets/x86/64/openwrt-sdk-23.05.6-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz",
+    "sha256": "f22bdac5b702bb823a0ee802e9bbda2a56c0f7a2687e5090113b00910dac995f",
+    "feeds_sha256": "0929c51309de3e5889cd2a5e00b9d209dce7d6638718da9b660e2be522f212be",
+    "signature_key": "92C561DE55AE6552F3C736B82B0151090606D1D9"
+  },
+  "po2lmo": {
+    "repository": "https://github.com/openwrt/luci.git",
+    "commit": "3d39e8c38cfa276d5cdfad7105dbf47933eaed4f",
+    "tree": "5b965b47126b7ea3c5b41074b85fb0d78ad89ec8"
+  },
+  "platform_ca": {
+    "manifest": "https://github.com/calabinet/calabi/releases/download/v2.8.0/build-manifest.json",
+    "manifest_sha256": "7b5836be6733bce633a6942d085d289ad79c008b3a9d80495a231288a1ecd9c9",
+    "path": "apps/client/internal/transport/certs/edge-ca.pem",
+    "pem_sha256": "8fb0518972f0f31894edc194576163d59db1f88d07750d854e4c6ece0fa1e2a6",
+    "der_sha256": "685dca578215ea08975c24e6d69dd95ec58e26ffb287777bb77dbd7515ff7071"
+  }
+}

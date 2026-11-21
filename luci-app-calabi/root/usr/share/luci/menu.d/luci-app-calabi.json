@@ -1,0 +1,44 @@
+{
+	"admin/services/calabi": {
+		"title": "Calabi",
+		"order": 60,
+		"action": { "type": "firstchild" },
+		"depends": { "acl": [ "luci-app-calabi" ] }
+	},
+	"admin/services/calabi/overview": {
+		"title": "Overview",
+		"order": 10,
+		"depends": { "acl": [ "luci-app-calabi" ] },
+		"action": { "type": "view", "path": "calabi/overview" }
+	},
+	"admin/services/calabi/mesh": {
+		"title": "Mesh",
+		"order": 20,
+		"depends": { "acl": [ "luci-app-calabi" ] },
+		"action": { "type": "view", "path": "calabi/mesh" }
+	},
+	"admin/services/calabi/subnets": {
+		"title": "Subnets",
+		"order": 30,
+		"depends": { "acl": [ "luci-app-calabi" ] },
+		"action": { "type": "view", "path": "calabi/subnets" }
+	},
+	"admin/services/calabi/endpoints": {
+		"title": "Endpoints",
+		"order": 40,
+		"depends": { "acl": [ "luci-app-calabi" ] },
+		"action": { "type": "view", "path": "calabi/endpoints" }
+	},
+	"admin/services/calabi/logs": {
+		"title": "Logs",
+		"order": 50,
+		"depends": { "acl": [ "luci-app-calabi" ] },
+		"action": { "type": "view", "path": "calabi/logs" }
+	},
+	"admin/services/calabi/settings": {
+		"title": "Settings",
+		"order": 60,
+		"depends": { "acl": [ "luci-app-calabi" ] },
+		"action": { "type": "view", "path": "calabi/settings" }
+	}
+}

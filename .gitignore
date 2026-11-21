@@ -1,0 +1,5 @@
+/calabi/local-input/
+/luci-app-calabi/local-input/
+/bin/
+/dist/
+*.ipk

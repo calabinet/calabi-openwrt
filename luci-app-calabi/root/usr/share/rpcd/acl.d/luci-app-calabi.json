@@ -1,0 +1,15 @@
+{
+	"luci-app-calabi": {
+		"description": "View and configure Calabi",
+		"read": { "ubus": { "calabi": [ "read" ] } },
+		"write": { "ubus": { "calabi": [ "write" ] } }
+	},
+	"luci-app-calabi-inspect": {
+		"description": "View captured requests and connections for local Calabi endpoints",
+		"read": { "ubus": { "calabi": [ "inspect" ] } }
+	},
+	"luci-app-calabi-update": {
+		"description": "Change the Calabi package update policy",
+		"write": { "ubus": { "calabi": [ "update_policy_write" ] } }
+	}
+}

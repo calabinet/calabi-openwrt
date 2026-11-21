@@ -1,0 +1,1348 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_CN\n"
+
+msgid "API Key"
+msgstr "API 密钥"
+
+msgid "Accept subnet routes"
+msgstr "接受子网路由"
+
+msgid "Access protection"
+msgstr "访问保护"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Add user"
+msgstr "添加用户"
+
+msgid "Advertised subnets"
+msgstr "声明子网"
+
+msgid "Receive on this device"
+msgstr "本机接收"
+
+msgid "Offer to the network"
+msgstr "对外提供"
+
+msgid "Internet access from this device"
+msgstr "本机出网"
+
+msgid "No subnets declared"
+msgstr "尚未声明子网"
+
+msgid "Firewall networks saved."
+msgstr "防火墙网络已保存。"
+
+msgid "Affinity"
+msgstr "节点偏好"
+
+msgid "Alias"
+msgstr "别名"
+
+msgid "Allow CIDRs"
+msgstr "允许的 CIDR"
+
+msgid "Allowed email addresses"
+msgstr "允许的邮箱地址"
+
+msgid "Allowed email domains"
+msgstr "允许的邮箱域名"
+
+msgid "Approval"
+msgstr "审批"
+
+msgid "Approved"
+msgstr "已批准"
+
+msgid "Automatic"
+msgstr "自动"
+
+msgid "Available domains"
+msgstr "可用域名"
+
+msgid "Awaiting approval"
+msgstr "待审批"
+
+msgid "Awaiting configuration"
+msgstr "待配置"
+
+msgid "Basic Auth"
+msgstr "Basic Auth"
+
+msgid "Block incoming mesh connections"
+msgstr "阻止组网入站连接"
+
+msgid "Calabi connection"
+msgstr "Calabi 连接"
+
+msgid "Calabi could not save the configuration."
+msgstr "Calabi 无法保存配置。"
+
+msgid "Calabi could not save the identity. The previous configuration is active."
+msgstr "Calabi 无法保存身份，原配置仍然生效。"
+
+msgid "Calabi endpoints"
+msgstr "Calabi 端点"
+
+msgid "Calabi has not reported the new identity yet. Refresh to check its status."
+msgstr "Calabi 尚未报告新身份，请刷新查看。"
+
+msgid "Calabi is starting, disconnected, or unavailable."
+msgstr "Calabi 正在启动、未连接或暂时不可用。"
+
+msgid "Calabi mesh"
+msgstr "Calabi 组网"
+
+msgid "Calabi subnets"
+msgstr "Calabi 子网"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Check the coordinator connection."
+msgstr "请检查协调器连接。"
+
+msgid "Check the values and try again."
+msgstr "请检查填写内容后重试。"
+
+msgid "Choose a region"
+msgstr "请选择地区"
+
+msgid "Clear platform configuration"
+msgstr "解除平台配置"
+
+msgid "Client ID"
+msgstr "客户端 ID"
+
+msgid "Client secret"
+msgstr "客户端密钥"
+
+msgid "Compare the certificate fingerprint with the one shown by your coordinator."
+msgstr "请与协调器显示的证书指纹核对。"
+
+msgid "Compare this fingerprint with the coordinator before confirming."
+msgstr "请与协调器核对下列证书指纹后再确认。"
+
+msgid "Configuration accepted. Waiting for Calabi to restart."
+msgstr "已接受配置，正在等待 Calabi 重启。"
+
+msgid "Confirm fingerprint"
+msgstr "确认证书指纹"
+
+msgid "Connect to a self-hosted server"
+msgstr "连接自建服务器"
+
+msgid "Connect to region"
+msgstr "连接此地区"
+
+msgid "Connected"
+msgstr "已连接"
+
+msgid "Connecting"
+msgstr "连接中"
+
+msgid "Connection"
+msgstr "连接"
+
+msgid "Connection path"
+msgstr "连接路径"
+
+msgid "Coordinator"
+msgstr "协调器"
+
+msgid "Coordinator certificate"
+msgstr "协调器证书"
+
+msgid "Create endpoint"
+msgstr "创建端点"
+
+msgid "Custom OAuth"
+msgstr "自定义 OAuth"
+
+msgid "Custom domain"
+msgstr "自定义域名"
+
+msgid "Custom rules"
+msgstr "自定义规则"
+
+msgid "Declare mesh service"
+msgstr "声明组网服务"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete endpoint"
+msgstr "删除端点"
+
+msgid "Deny CIDRs"
+msgstr "拒绝的 CIDR"
+
+msgid "Device"
+msgstr "设备"
+
+msgid "Direct"
+msgstr "直连"
+
+msgid "Disable"
+msgstr "停用"
+
+msgid "Disabled"
+msgstr "已停用"
+
+msgid "Disabled by administrator"
+msgstr "管理员已停用"
+
+msgid "Disconnect and forget"
+msgstr "断开并忘记服务器"
+
+msgid "Disconnect platform endpoints and clear this device’s saved identity?"
+msgstr "断开平台端点并清除本设备保存的身份？"
+
+msgid "Disconnected"
+msgstr "未连接"
+
+msgid "Edge address pool"
+msgstr "边缘地址池"
+
+msgid "Edge connection"
+msgstr "边缘连接"
+
+msgid "Edge selection"
+msgstr "边缘节点选择"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit endpoint"
+msgstr "编辑端点"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable mesh"
+msgstr "开启组网"
+
+msgid "Enabled"
+msgstr "已启用"
+
+msgid "Endpoint management"
+msgstr "端点管理"
+
+msgid "Endpoints"
+msgstr "端点"
+
+msgid "Enter a domain"
+msgstr "手动输入域名"
+
+msgid "Enter a valid invitation link."
+msgstr "请输入有效的邀请链接。"
+
+msgid "Enter an API key."
+msgstr "请输入 API 密钥。"
+
+msgid "Enter the peer name or overlay address."
+msgstr "请输入对端设备名称或组网地址。"
+
+msgid "Excluded routes"
+msgstr "排除的路由"
+
+msgid "External address"
+msgstr "外部地址"
+
+msgid "External port"
+msgstr "外部端口"
+
+msgid "For TCP or UDP. Leave empty to assign automatically."
+msgstr "用于 TCP 或 UDP。留空自动分配。"
+
+msgid "For manual setup, enter the server and join key."
+msgstr "手动加入时填写服务器地址及入网密钥。"
+
+msgid "Forget this server and delete the local endpoints configured for it?"
+msgstr "忘记此服务器，并删除为它配置的本地端点？"
+
+msgid "HTTP request headers"
+msgstr "HTTP 请求头"
+
+msgid "Health"
+msgstr "健康状态"
+
+msgid "IP access rules"
+msgstr "IP 访问规则"
+
+msgid "IPv4 subnets"
+msgstr "IPv4 子网"
+
+msgid "Invitation link"
+msgstr "邀请链接"
+
+msgid "Join"
+msgstr "加入"
+
+msgid "Join key"
+msgstr "入网密钥"
+
+msgid "Leave an existing user’s password blank to keep it."
+msgstr "现有用户的密码留空即可保留。"
+
+msgid "Leave blank to keep saved headers. Enter name and value on each line to replace them."
+msgstr "留空保留已保存的请求头。要替换时，每行填写一个名称和值。"
+
+msgid "Leave blank to keep the saved secret."
+msgstr "留空保留已保存的密钥。"
+
+msgid "Leave empty to assign automatically."
+msgstr "留空自动分配。"
+
+msgid "Local address"
+msgstr "本地地址"
+
+msgid "Mesh"
+msgstr "组网"
+
+msgid "Mesh services"
+msgstr "组网服务"
+
+msgid "Mesh status"
+msgstr "组网状态"
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "No editable protection policies are available for this endpoint."
+msgstr "此端点没有可编辑的保护策略。"
+
+msgid "No entries"
+msgstr "暂无记录"
+
+msgid "Note"
+msgstr "备注"
+
+msgid "OAuth"
+msgstr "OAuth"
+
+msgid "Offer this device as an exit node"
+msgstr "将本设备声明为出口设备"
+
+msgid "Offline email notification"
+msgstr "离线邮件通知"
+
+msgid "One CIDR per line. The coordinator approves routes before publishing them."
+msgstr "每行填写一个 CIDR。子网需经协调器批准后发布。"
+
+msgid "Open LuCI over HTTPS to submit credentials."
+msgstr "请通过 HTTPS 打开 LuCI 后再提交凭据。"
+
+msgid "OpenWrt could not list its networks."
+msgstr "无法读取 OpenWrt 网络列表。"
+
+msgid "OpenWrt firewall"
+msgstr "OpenWrt 防火墙"
+
+msgid "Organization IP policy"
+msgstr "组织 IP 策略"
+
+msgid "Organization OAuth policy"
+msgstr "组织 OAuth 策略"
+
+msgid "Organization or coordinator"
+msgstr "组织或协调器"
+
+msgid "Overlay address"
+msgstr "组网地址"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Pause mesh"
+msgstr "暂停组网"
+
+msgid "Paused"
+msgstr "已暂停"
+
+msgid "Peers"
+msgstr "对端设备"
+
+msgid "Pending"
+msgstr "待处理"
+
+msgid "Permissions"
+msgstr "权限"
+
+msgid "Platform"
+msgstr "平台"
+
+msgid "Platform API key"
+msgstr "平台 API 密钥"
+
+msgid "Policy"
+msgstr "策略"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Prefer own edge"
+msgstr "优先使用自有节点"
+
+msgid "Prefer platform edge"
+msgstr "优先使用平台节点"
+
+msgid "Probe target"
+msgstr "探测目标"
+
+msgid "Protection"
+msgstr "保护"
+
+msgid "Protocol"
+msgstr "协议"
+
+msgid "Provider"
+msgstr "服务提供方"
+
+msgid "Published"
+msgstr "已发布"
+
+msgid "Rate limits"
+msgstr "频率限制"
+
+msgid "Reachable"
+msgstr "可达"
+
+msgid "Read-only endpoints"
+msgstr "只读端点权限"
+
+msgid "Region"
+msgstr "地区"
+
+msgid "Relay"
+msgstr "中继"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove headers"
+msgstr "删除请求头"
+
+msgid "Remove selected policy"
+msgstr "移除所选策略"
+
+msgid "Remove this access protection policy?"
+msgstr "移除此访问保护策略？"
+
+msgid "Remove user"
+msgstr "移除用户"
+
+msgid "Replace key"
+msgstr "更换密钥"
+
+msgid "Replace the device’s platform key and reconnect?"
+msgstr "更换本设备的平台密钥并重新连接？"
+
+msgid "Replace the self-hosted connection?"
+msgstr "更换自建服务器连接？"
+
+msgid "Requests per IP per minute"
+msgstr "每个 IP 每分钟请求数"
+
+msgid "Requests per minute"
+msgstr "每分钟请求数"
+
+msgid "Routes"
+msgstr "路由"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Save affinity"
+msgstr "保存节点偏好"
+
+msgid "Save firewall networks"
+msgstr "保存防火墙网络"
+
+msgid "Save key"
+msgstr "保存密钥"
+
+msgid "Save subnet settings"
+msgstr "保存子网设置"
+
+msgid "Select provider"
+msgstr "请选择服务提供方"
+
+msgid "Select the OpenWrt networks that may receive traffic for approved subnets."
+msgstr "选择可接收已批准子网流量的 OpenWrt 网络。"
+
+msgid "Self-hosted"
+msgstr "自建"
+
+msgid "Self-hosted identity"
+msgstr "自建身份"
+
+msgid "Server address"
+msgstr "服务器地址"
+
+msgid "Set headers"
+msgstr "设置请求头"
+
+msgid "State"
+msgstr "状态"
+
+msgid "Subdomain prefix"
+msgstr "子域名前缀"
+
+msgid "Subnet"
+msgstr "子网"
+
+msgid "Subnets"
+msgstr "子网"
+
+msgid "Target"
+msgstr "目标"
+
+msgid "Target is reachable."
+msgstr "目标可达。"
+
+msgid "Target is unreachable from OpenWrt."
+msgstr "OpenWrt 无法连接目标。"
+
+msgid "The Calabi fw4 rules are not loaded."
+msgstr "Calabi 的 fw4 规则尚未加载。"
+
+msgid "The coordinator is unreachable."
+msgstr "无法连接协调器。"
+
+msgid "The device or key is disabled."
+msgstr "设备或密钥已被停用。"
+
+msgid "The installed core does not support this operation."
+msgstr "已安装的核心不支持此操作。"
+
+msgid "The item or daemon interface is unavailable."
+msgstr "记录或 daemon 接口不可用。"
+
+msgid "The management session or device authorization expired."
+msgstr "管理会话或设备授权已过期。"
+
+msgid "The operation failed or your LuCI session expired."
+msgstr "操作失败或 LuCI 会话已过期。"
+
+msgid "The platform could not verify the API key."
+msgstr "平台无法验证此 API 密钥。"
+
+msgid "The request failed. Check the connection and try again."
+msgstr "请求失败，请检查连接后重试。"
+
+msgid "The requested change conflicts with the current state."
+msgstr "请求的修改与当前状态冲突。"
+
+msgid "The server cannot accept another device."
+msgstr "服务器无法接纳更多设备。"
+
+msgid "The server certificate differs from the trusted fingerprint."
+msgstr "服务器证书与已信任的指纹不一致。"
+
+msgid "The server does not offer TLS."
+msgstr "服务器未提供 TLS。"
+
+msgid "The server rejected this key."
+msgstr "服务器拒绝了此密钥。"
+
+msgid "This account or API key lacks permission for the operation."
+msgstr "当前账户或 API 密钥没有此操作的权限。"
+
+msgid "This device already has an identity."
+msgstr "此设备已配置身份。"
+
+msgid "This device is already connected to a self-hosted server."
+msgstr "此设备已连接自建服务器。"
+
+msgid "This identity is managed outside LuCI."
+msgstr "此身份由 LuCI 以外的方式管理。"
+
+msgid "This operation is unavailable."
+msgstr "此操作不可用。"
+
+msgid "Unreachable"
+msgstr "不可达"
+
+msgid "Update the Calabi core to configure platform identity in LuCI."
+msgstr "请升级 Calabi 核心后在 LuCI 配置平台身份。"
+
+msgid "Use exit device"
+msgstr "使用出口设备"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Wait for Calabi to restart."
+msgstr "请等待 Calabi 重启。"
+
+msgid "Wait for this device to connect to the edge and try again."
+msgstr "请等待本设备连接边缘节点后重试。"
+
+msgid "The upstream service is unavailable."
+msgstr "暂时无法连接上游服务。"
+
+msgid "Calabi diagnostics"
+msgstr "Calabi 诊断"
+
+msgid "Check"
+msgstr "检查项"
+
+msgid "Result"
+msgstr "结果"
+
+msgid "Daemon"
+msgstr "守护进程"
+
+msgid "Device identity"
+msgstr "设备身份"
+
+msgid "Platform account"
+msgstr "平台账号"
+
+msgid "Available"
+msgstr "可用"
+
+msgid "Logs"
+msgstr "日志"
+
+msgid "Logs are temporarily unavailable."
+msgstr "暂时无法读取日志。"
+
+msgid "Search logs"
+msgstr "搜索日志"
+
+msgid "Log level"
+msgstr "日志级别"
+
+msgid "All levels"
+msgstr "全部级别"
+
+msgid "Debug"
+msgstr "调试"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Refresh"
+msgstr "刷新"
+
+msgid "Auto-refresh"
+msgstr "自动刷新"
+
+msgid "%d entries"
+msgstr "%d 条日志"
+
+msgid "No logs match your filters."
+msgstr "没有符合筛选条件的日志。"
+
+msgid "No logs have been recorded."
+msgstr "暂无日志。"
+
+msgid "Overview"
+msgstr "概览"
+
+msgid "Enabled endpoints"
+msgstr "已启用端点"
+
+msgid "Local information"
+msgstr "本机信息"
+
+msgid "Core version"
+msgstr "核心版本"
+
+msgid "View endpoints"
+msgstr "查看端点"
+
+msgid "Organization devices"
+msgstr "组织设备"
+
+msgid "My endpoints"
+msgstr "我的端点"
+
+msgid "Active endpoints"
+msgstr "活跃端点"
+
+msgid "On this client: %d"
+msgstr "本客户端 %d 条"
+
+msgid "Traffic today"
+msgstr "今日流量"
+
+msgid "Traffic this month"
+msgstr "本月流量"
+
+msgid "Last 7 days"
+msgstr "近 7 天流量"
+
+msgid "Last 30 days"
+msgstr "近 30 天流量"
+
+msgid "Live throughput"
+msgstr "实时吞吐"
+
+msgid "Traffic data is unavailable."
+msgstr "暂时无法读取流量数据。"
+
+msgid "Total"
+msgstr "合计"
+
+msgid "Excludes direct traffic"
+msgstr "不含直连"
+
+msgid "Current"
+msgstr "当前"
+
+msgid "Peak"
+msgstr "峰值"
+
+msgid "Session / caller"
+msgstr "会话 / 调用方"
+
+msgid "Client fingerprint"
+msgstr "客户端指纹"
+
+msgid "Edge node"
+msgstr "边缘节点"
+
+msgid "Relay node"
+msgstr "中继节点"
+
+msgid "%d peers"
+msgstr "%d 个对端"
+
+msgid "Online"
+msgstr "在线"
+
+msgid "Self-hosted edge"
+msgstr "节点 自建"
+
+msgid "Platform edge"
+msgstr "节点 平台"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Platform authorization"
+msgstr "平台授权"
+
+msgid "Client updates"
+msgstr "客户端更新"
+
+msgid "Calabi core"
+msgstr "Calabi 核心"
+
+msgid "LuCI plugin"
+msgstr "LuCI 插件"
+
+msgid "Component"
+msgstr "组件"
+
+msgid "Installed version"
+msgstr "已安装版本"
+
+msgid "Available update"
+msgstr "可用更新"
+
+msgid "Package versions are unavailable."
+msgstr "暂时无法读取软件包版本。"
+
+msgid "An update is available. Review it in the software manager."
+msgstr "发现更新，可在软件包管理器中查看并安装。"
+
+msgid "The configured software sources offer no newer Calabi package."
+msgstr "已配置的软件源中没有更新的 Calabi 软件包。"
+
+msgid "Open software manager"
+msgstr "打开软件包管理器"
+
+msgid "Check for updates"
+msgstr "检查更新"
+
+msgid "Refreshing software sources…"
+msgstr "正在刷新软件源…"
+
+msgid "Could not refresh the software sources. Check the software manager."
+msgstr "软件源刷新失败。请在软件包管理器中查看。"
+
+msgid "Offline"
+msgstr "离线"
+
+msgid "Switch edge"
+msgstr "切换节点"
+
+msgid "Switching…"
+msgstr "正在切换…"
+
+msgid "Saved. Calabi is reconnecting."
+msgstr "已保存，Calabi 正在重新连接。"
+
+msgid "Could not change the edge selection. Check your permissions and connection."
+msgstr "无法切换节点。请检查权限和连接。"
+
+msgid "Calabi reconnects after switching. Active endpoints may be briefly interrupted."
+msgstr "切换后 Calabi 会重新连接，正在使用的端点可能短暂中断。"
+
+msgid "Switch edge to %s?"
+msgstr "切换到%s节点？"
+
+msgid "Connect to %s?"
+msgstr "连接到 %s？"
+
+msgid "No matching regions"
+msgstr "没有匹配的节点地域"
+
+msgid "Automatic update settings are unavailable."
+msgstr "暂时无法读取自动更新设置。"
+
+msgid "Automatic updates"
+msgstr "自动更新"
+
+msgid "Security updates only"
+msgstr "只装安全更新"
+
+msgid "Notify only"
+msgstr "只提醒"
+
+msgid "Maintenance window start"
+msgstr "维护窗口开始时间"
+
+msgid "Maintenance window end"
+msgstr "维护窗口结束时间"
+
+msgid "Immediately"
+msgstr "立即"
+
+msgid "%d days"
+msgstr "%d 天"
+
+msgid "The trusted feed offers no newer Calabi package."
+msgstr "受信任的软件源暂无新版 Calabi。"
+
+msgid "An update is available."
+msgstr "有可用更新。"
+
+msgid "An ordinary update is available. It will wait for manual installation."
+msgstr "已发现常规更新，请按需手动安装。"
+
+msgid "Waiting for the maintenance window."
+msgstr "等待维护窗口。"
+
+msgid "Waiting for traffic to become idle."
+msgstr "等待流量空闲。"
+
+msgid "The automatic update check failed."
+msgstr "自动更新检查失败。"
+
+msgid "Automatic installation failed. Check the installed versions."
+msgstr "自动安装失败，请检查当前安装版本。"
+
+msgid "Installing an update…"
+msgstr "正在安装更新…"
+
+msgid "The update was installed."
+msgstr "更新已安装。"
+
+msgid "Save update settings"
+msgstr "保存更新设置"
+
+msgid "Choose different hours for the maintenance window."
+msgstr "请选择不同的维护窗口开始和结束时间。"
+
+msgid "Update settings saved."
+msgstr "更新设置已保存。"
+
+msgid "Could not save the update settings."
+msgstr "无法保存更新设置。"
+
+msgid "How this device updates"
+msgstr "本机如何更新"
+
+msgid "Use a maintenance window"
+msgstr "使用维护窗口"
+
+msgid "Router local time"
+msgstr "路由器本地时间"
+
+msgid "Maximum deferral"
+msgstr "最长推迟"
+
+msgid "After this limit, an ordinary update in automatic mode installs even outside the window or while busy."
+msgstr "超过期限后，自动更新模式会安装常规更新，即使当前不在维护窗口内或仍有流量。"
+
+msgid "Signed security updates can install immediately in automatic or security-only mode."
+msgstr "自动更新或只装安全更新模式下，已签名的安全更新可立即安装。"
+
+msgid "Automatic updates need a configured Calabi feed and its signing key."
+msgstr "使用自动更新需要配置 Calabi 软件源及其签名公钥。"
+
+msgid "Authorize Calabi"
+msgstr "授权 Calabi"
+
+msgid "Choose how to connect this device."
+msgstr "请选择此设备的接入方式。"
+
+msgid "Contact a LuCI administrator to authorize this device."
+msgstr "请联系 LuCI 管理员为此设备授权。"
+
+msgid "Could not read Calabi authorization. Check that the Calabi service is running."
+msgstr "无法读取 Calabi 授权状态，请检查 Calabi 服务是否正在运行。"
+
+msgid "Check authorization again"
+msgstr "重新检查授权"
+
+msgid "Enter an invitation link or both server address and join key."
+msgstr "请输入邀请链接，或同时填写服务器地址和入网密钥。"
+
+msgid "Overlay IP"
+msgstr "组网 IP"
+
+msgid "Traffic (RX / TX)"
+msgstr "流量（收 / 发）"
+
+msgid "Accessible subnets"
+msgstr "可访问子网"
+
+msgid "Latency to the relay"
+msgstr "本机到中继的延迟"
+
+msgid "Device limit reached"
+msgstr "已达到设备数量上限"
+
+msgid "Access control"
+msgstr "访问控制"
+
+msgid "Access control: %s"
+msgstr "访问控制 · %s"
+
+msgid "Save access control"
+msgstr "保存访问控制"
+
+msgid "Remove policy when saving"
+msgstr "保存时移除此策略"
+
+msgid "Remove saved %s"
+msgstr "移除已保存的%s"
+
+msgid "This protocol supports IP rules and rate limits where available."
+msgstr "此协议支持 IP 规则和速率限制，具体取决于当前权益。"
+
+msgid "No editable access control policies are available for this endpoint."
+msgstr "此端点暂无可编辑的访问控制策略。"
+
+msgid "View requests"
+msgstr "查看请求"
+
+msgid "Requests: %s"
+msgstr "请求 · %s"
+
+msgid "HTTP requests"
+msgstr "HTTP 请求"
+
+msgid "Connection records"
+msgstr "连接记录"
+
+msgid "Request headers and body"
+msgstr "请求头和正文"
+
+msgid "Response headers and body"
+msgstr "响应头和正文"
+
+msgid "No captured body"
+msgstr "无捕获正文"
+
+msgid "Open LuCI over HTTPS to view captured headers and bodies."
+msgstr "请通过 HTTPS 打开 LuCI 查看捕获的请求头和正文。"
+
+msgid "No HTTP requests have been captured for this endpoint."
+msgstr "尚未捕获此端点的 HTTP 请求。"
+
+msgid "Requests are available while this endpoint runs on this device."
+msgstr "端点在本设备运行时可查看请求。"
+
+msgid "Health data unavailable"
+msgstr "健康状态暂不可用"
+
+msgid "Not running on this device"
+msgstr "未在本机运行"
+
+msgid "Health checks disabled"
+msgstr "健康检查已禁用"
+
+msgid "Waiting for health check"
+msgstr "等待健康检查"
+
+msgid "Duration"
+msgstr "耗时"
+
+msgid "Visitor IP"
+msgstr "访客 IP"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Policy allows: %s · Denies: %s"
+msgstr "策略允许 %s · 拒绝 %s"
+
+msgid "Leave blank to keep the saved value"
+msgstr "留空以保留已保存的值"
+
+msgid "Header name"
+msgstr "请求头名称"
+
+msgid "Header value"
+msgstr "请求头值"
+
+msgid "Remove header"
+msgstr "删除请求头"
+
+msgid "Add header"
+msgstr "添加请求头"
+
+msgid "Loading…"
+msgstr "加载中…"
+
+msgid "Take over"
+msgstr "接管"
+
+msgid "Take over endpoint: %s"
+msgstr "接管端点「%s」到本机"
+
+msgid "This OpenWrt device will serve the endpoint. The previous client will stop serving it, and existing connections may be briefly interrupted."
+msgstr "接管后将由这台 OpenWrt 设备提供端点服务，原客户端会停止提供该端点，现有连接可能短暂中断。"
+
+msgid "Enter the address of the service reachable from this OpenWrt device."
+msgstr "填写这台 OpenWrt 设备可以访问的服务地址。"
+
+msgid "Enter a valid port or host:port."
+msgstr "请输入有效的端口或主机:端口。"
+
+msgid "Switch to the endpoint’s edge before taking it over to keep its external address."
+msgstr "请先切换到该端点所在的边缘节点再接管，以保留外部地址。"
+
+msgid "Unavailable for the current account or client."
+msgstr "当前账号或客户端无法配置此项。"
+
+msgid "Could not load access control permissions."
+msgstr "无法读取访问控制权限。"
+
+msgid "IP access control"
+msgstr "IP 访问控制"
+
+msgid "Allow or deny by source IP or CIDR, one entry per line. Rules are enforced at the edge."
+msgstr "按来源 IP / CIDR 放行或拒绝（每行一条），在边缘节点强制生效。"
+
+msgid "Basic authentication"
+msgstr "Basic 认证"
+
+msgid "Visitors must enter a username and password. Passwords are stored as hashes."
+msgstr "访问服务前需输入用户名和密码。密码以哈希存储。"
+
+msgid "Connection rate limits"
+msgstr "速率限制"
+
+msgid "Limit new connections to protect the upstream service. Zero or blank means unlimited."
+msgstr "限制到本端点的新连接速率（保护上游服务）。0 或留空表示不限。"
+
+msgid "Request header rewriting"
+msgstr "请求头改写"
+
+msgid "Rewrite headers forwarded upstream. Protocol headers such as Content-Length cannot be changed."
+msgstr "改写转发给上游的请求头。Content-Length 等协议头不可改写。"
+
+msgid "OAuth sign-in"
+msgstr "OAuth 登录认证"
+
+msgid "Require visitors to sign in with an identity provider."
+msgstr "访问服务前需通过身份提供方登录。"
+
+msgid "Custom addresses"
+msgstr "自定义地址"
+
+msgid "Address source"
+msgstr "地址来源"
+
+msgid "Allowlist — only these addresses may connect (blank allows all)"
+msgstr "白名单——仅这些可访问（留空放行全部）"
+
+msgid "Denylist — always blocked, even if allowlisted"
+msgstr "黑名单——始终拒绝（优先级高于白名单）"
+
+msgid "Follows organization policy “%s” and updates automatically when the policy changes."
+msgstr "跟随组织策略「%s」，策略更新后本端点自动同步。"
+
+msgid "Leave blank to keep the current password"
+msgstr "留空保留现有密码"
+
+msgid "e.g. 600"
+msgstr "如 600"
+
+msgid "A per-IP limit can prevent one source from using the entire endpoint allowance."
+msgstr "建议同时设置单 IP 上限，避免单一来源占满整个端点的额度。"
+
+msgid "per minute (entire endpoint)"
+msgstr "次/分钟（整个端点）"
+
+msgid "per minute (per source IP)"
+msgstr "次/分钟（单个来源 IP）"
+
+msgid "Set or add headers, replacing any existing values"
+msgstr "设置 / 添加（覆盖同名头）"
+
+msgid "Remove headers, one name per line"
+msgstr "移除（每行一个头名）"
+
+msgid "Provider (off)"
+msgstr "提供方（关闭）"
+
+msgid "Allowed email addresses (one per line, blank allows any signed-in user)"
+msgstr "允许的邮箱（每行一个，留空允许任意已登录用户）"
+
+msgid "Allowed email domains (one per line)"
+msgstr "允许的邮箱域名（每行一个）"
+
+msgid "Register this callback URL in your OAuth application."
+msgstr "在你的 OAuth 应用里注册这个回调地址。"
+
+msgid "Provider, Client ID and access rules follow organization policy “%s”."
+msgstr "提供方、Client ID 和允许范围跟随组织登录策略「%s」。"
+
+msgid "Configure this endpoint"
+msgstr "本端点单独配置"
+
+msgid "Unavailable for the current account or client: %s."
+msgstr "当前账号或客户端无法配置：%s。"
+
+msgid "%s endpoints forward raw bytes and support IP access control and connection rate limits. Basic authentication, OAuth and header rewriting apply to HTTP/HTTPS endpoints."
+msgstr "%s 端点按字节原样转发，只支持 IP 访问控制和速率限制。Basic 认证、OAuth 登录认证和请求头改写适用于 HTTP/HTTPS 端点。"
+
+msgid "Saved rules take effect immediately at the edge, without reconnecting."
+msgstr "保存后在边缘节点即时生效，无需重连。"
+
+msgid "Traffic"
+msgstr "流量"
+
+msgid "Received"
+msgstr "接收"
+
+msgid "Sent"
+msgstr "发送"
+
+msgid "Awaiting port assignment"
+msgstr "等待分配端口"
+
+msgid "A subdomain is assigned automatically."
+msgstr "系统自动分配子域名。"
+
+msgid "Allowlist"
+msgstr "白名单"
+
+msgid "Awaiting address"
+msgstr "等待分配地址"
+
+msgid "Previous step"
+msgstr "上一步"
+
+msgid "Use the address of a local or LAN service."
+msgstr "请填写本机或局域网服务的地址。"
+
+msgid "Back to endpoints"
+msgstr "返回端点列表"
+
+msgid "Basic authentication applies to HTTP/HTTPS endpoints."
+msgstr "Basic 认证仅适用于 HTTP/HTTPS 端点。"
+
+msgid "Checking the local service…"
+msgstr "正在检测本地服务…"
+
+msgid "Choose a rule that restricts access before creating this endpoint."
+msgstr "请设置能限制访问的规则，再创建端点。"
+
+msgid "Choose who can access this endpoint. You can change these settings later."
+msgstr "选择谁可以访问此端点，创建后仍可调整。"
+
+msgid "Complete"
+msgstr "完成"
+
+msgid "Create"
+msgstr "创建"
+
+msgid "Create another endpoint"
+msgstr "再建一个端点"
+
+msgid "Create the endpoint anyway? You can start the local service later."
+msgstr "仍要创建端点吗？可以稍后启动本地服务。"
+
+msgid "Endpoint created"
+msgstr "端点已创建"
+
+msgid "Endpoint created · address still unassigned"
+msgstr "端点已创建 · 地址尚未分配"
+
+msgid "Endpoint created · awaiting approval"
+msgstr "端点已创建 · 等待审批"
+
+msgid "Endpoint created · waiting for address"
+msgstr "端点已创建 · 正在等待地址"
+
+msgid "Endpoint name"
+msgstr "端点名称"
+
+msgid "Endpoint settings"
+msgstr "端点设置"
+
+msgid "Manage this endpoint in the web console or take it over first."
+msgstr "请到用户后台管理此端点，或先接管到本机。"
+
+msgid "Enter a valid subdomain prefix."
+msgstr "请输入有效的子域名前缀。"
+
+msgid "Enter an allowlist"
+msgstr "手动填写白名单"
+
+msgid "Enter an endpoint name."
+msgstr "请输入端点名称。"
+
+msgid "Enter an external port between 1024 and 65535."
+msgstr "请输入 1024 至 65535 之间的外部端口。"
+
+msgid "Enter at least one IP address or CIDR."
+msgstr "请至少填写一条 IP 地址或 CIDR。"
+
+msgid "Enter both the username and password."
+msgstr "请同时填写用户名和密码。"
+
+msgid "Follow an organization policy"
+msgstr "跟随组织策略"
+
+msgid "IP access control is unavailable for this account."
+msgstr "当前账号无法配置 IP 访问控制。"
+
+msgid "Keep waiting"
+msgstr "继续等待"
+
+msgid "Leave the prefix empty to use the domain itself."
+msgstr "留空前缀时使用域名本身。"
+
+msgid "Leave unconfigured"
+msgstr "暂不设置"
+
+msgid "Local service"
+msgstr "本地服务"
+
+msgid "Local service reachable in %s ms."
+msgstr "本地服务可达，耗时 %s ms。"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "OpenWrt connects to the local service over HTTPS."
+msgstr "OpenWrt 通过 HTTPS 连接本地服务。"
+
+msgid "Organization default"
+msgstr "组织默认"
+
+msgid "Organization endpoints: %s"
+msgstr "组织已有 %s 个端点。"
+
+msgid "Select a policy"
+msgstr "选择策略"
+
+msgid "Select a verified domain"
+msgstr "选择已验证域名"
+
+msgid "Select a verified domain for this edge."
+msgstr "请选择当前边缘节点的已验证域名。"
+
+msgid "The created endpoint could not be found"
+msgstr "找不到刚创建的端点"
+
+msgid "The organization requires access protection for this endpoint."
+msgstr "组织要求此端点设置访问防护。"
+
+msgid "This domain is already in use. Enter a prefix."
+msgstr "此域名已被使用，请填写前缀。"
+
+msgid "This edge has no verified domain."
+msgstr "当前边缘节点没有已验证域名。"
+
+msgid "TLS (requires a compatible edge and domain)"
+msgstr "TLS（需兼容的边缘节点及域名）"
+
+msgid "TLS passes through to the local service, which provides its own certificate."
+msgstr "TLS 由本地服务终止，本地服务需提供自己的证书。"
+
+msgid "Host alias requests"
+msgstr "申请单 IP 替身"
+
+msgid "This device cannot install stand-in address rules."
+msgstr "此设备无法安装替身地址转发规则。"
+
+msgid "Update the Calabi core to request stand-in addresses."
+msgstr "更新 Calabi 核心后即可申请替身地址。"
+
+msgid "Synchronizing approvals"
+msgstr "正在同步审批状态"
+
+msgid "Reconnecting to the mesh"
+msgstr "正在重新连接组网"
+
+msgid "Showing the last synchronized results."
+msgstr "列表显示上次同步结果。"
+
+msgid "Mesh status unavailable"
+msgstr "暂无法读取组网状态"
+
+msgid "Not published"
+msgstr "未发布"
+
+msgid "Subnet settings saved."
+msgstr "子网设置已保存。"
+
+msgid "Alias unavailable"
+msgstr "暂未分配替身地址"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Pending save"
+msgstr "待保存"
+
+msgid "Saving will also withdraw the stand-in requests covered only by the removed subnet."
+msgstr "保存时也会撤回仅属于该子网的替身申请。"
+
+msgid "Save subnet settings to apply additions and deletions."
+msgstr "添加和删除将在保存子网设置后生效。"
+
+msgid "Enter a single IPv4 address within a subnet listed above."
+msgstr "请输入上方已列出的子网内的单个 IPv4 地址。"
+
+msgid "Enter an IPv4 subnet from /24 to /32, or a single IPv4 address."
+msgstr "请输入 /24 至 /32 的 IPv4 子网，或单个 IPv4 地址。"
+
+msgid "Add a subnet or a single IPv4 address. An administrator approves routes before publishing."
+msgstr "添加 IPv4 子网或单个 IPv4 地址。子网经管理员批准后发布。"
+
+msgid "Enter the IPv4 address of one host in a subnet above, add it, then save. An administrator approves the request."
+msgstr "填写上方子网内的单个 IPv4 地址，点「添加」后保存，再由管理员审批。"
