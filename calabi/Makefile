@@ -15,14 +15,14 @@ RSTRIP:=:
 define Package/calabi
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=Calabi daemon for OpenWrt (local development build)
+  TITLE:=Calabi daemon for OpenWrt
   URL:=https://github.com/calabinet/calabi
   DEPENDS:=@TARGET_x86_64 +ca-bundle +ip-full +kmod-tun +firewall4 +curl +jsonfilter
 endef
 
 define Package/calabi/description
  Calabi daemon with procd integration for mesh networking, declared
- subnets, and local services. This build is for local OpenWrt testing.
+ subnets, and local services.
 endef
 
 define Build/Prepare
