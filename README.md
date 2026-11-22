@@ -11,7 +11,7 @@ The initial build target is OpenWrt 23.05 x86/64 with opkg packages. ImmortalWrt
 - `calabi` installs the shared daemon, its procd service, and the fw4 integration for approved subnets.
 - `luci-app-calabi` provides the authorization flow, overview, mesh, subnets, endpoints, logs, and update settings using LuCI permissions and the daemon's local management socket.
 
-The package recipes currently target development and candidate testing. Package publication is tracked separately from this source repository.
+Download both x86_64 IPKs and SHA256SUMS from the [releases page](https://github.com/calabinet/calabi-openwrt/releases). Verify the checksums, then upload and install calabi followed by luci-app-calabi in LuCI under System → Software. Keep the firmware feeds enabled so opkg can install dependencies.
 
 ## License
 

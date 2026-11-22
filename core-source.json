@@ -2,12 +2,12 @@
   "schema": "calabi.openwrt.build-inputs/v1",
   "core": {
     "repository": "https://github.com/calabinet/calabi.git",
-    "commit": "571b2f6cb68516f5a49861c2737e542d0de918ec",
-    "tree": "a91a77e11fe390b9485b4ffd7380eba14c1561f3",
-    "version": "2.8.0",
+    "commit": "62ba9aef49835c8e0a10cf18f384085e0a2295ff",
+    "tree": "960a967d1302fa5e19a9c9981ad5ba0b2908a80b",
+    "version": "2.9.0",
     "go": "go1.26.3",
-    "source_date_epoch": 1795228304,
-    "ldflags": "-s -w -X main.version=2.8.0 -X main.defaultBFFConsole=https://api.calabi.net -X main.defaultConsoleWeb=https://console.calabi.net -X main.defaultServer="
+    "source_date_epoch": 1795324496,
+    "ldflags": "-s -w -X main.version=2.9.0 -X main.defaultBFFConsole=https://api.calabi.net -X main.defaultConsoleWeb=https://console.calabi.net -X main.defaultServer="
   },
   "sdk": {
     "series": "23.05",
@@ -26,8 +26,8 @@
     "tree": "5b965b47126b7ea3c5b41074b85fb0d78ad89ec8"
   },
   "platform_ca": {
-    "manifest": "https://github.com/calabinet/calabi/releases/download/v2.8.0/build-manifest.json",
-    "manifest_sha256": "7b5836be6733bce633a6942d085d289ad79c008b3a9d80495a231288a1ecd9c9",
+    "manifest": "https://github.com/calabinet/calabi/releases/download/v2.9.0/build-manifest.json",
+    "manifest_sha256": "66ff70bef6d563eaffd7ec165c1a8f44a8584c648824c89b2b48a305ad0e8a0f",
     "path": "apps/client/internal/transport/certs/edge-ca.pem",
     "pem_sha256": "8fb0518972f0f31894edc194576163d59db1f88d07750d854e4c6ece0fa1e2a6",
     "der_sha256": "685dca578215ea08975c24e6d69dd95ec58e26ffb287777bb77dbd7515ff7071"
