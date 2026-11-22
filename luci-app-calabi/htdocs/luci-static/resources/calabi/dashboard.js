@@ -210,25 +210,21 @@ return baseclass.extend({
 		observer.observe(live);
 
 		function updateFacts(s, m) {
-			const edgeState = !s ? '' : s.connected ? _('Connected') :
-				['starting', 'connecting', 'reconnecting'].includes(s.lifecycle) ? _('Connecting') : _('Disconnected');
 			const relayReady = Boolean(m?.relay && m.relay_rtt_micros > 0 && m.enabled && !m.paused);
-			const relayState = !m ? '' : m.paused ? _('Paused') : !m.enabled ? _('Disabled') :
-				relayReady ? _('Connected') : _('Connecting');
 			const latency = relayReady ? (m.relay_rtt_micros / 1000).toLocaleString(undefined, { maximumFractionDigits: 1 }) + ' ms' : '';
 			const localFacts = [
 				[_('Core version'), s?.client_version || health?.version],
 				[_('Session / caller'), [s?.session_id, s?.client_id].filter(Boolean).join('\n')],
 				[_('Client fingerprint'), [s?.fingerprint, s?.device_id ? '#' + s.device_id : ''].filter(Boolean).join(' · ')],
-				[_('Edge node'), s?.server_addr, s && (standalone || isOwnEdge(s)), edgeState, s?.connected],
-				[_('Relay node'), [m?.relay, latency].filter(Boolean).join(' · '), m?.derp_home?.startsWith('self-'), relayState, relayReady],
+				[_('Edge node'), s?.server_addr, s && (standalone || isOwnEdge(s))],
+				[_('Relay node'), [m?.relay, latency].filter(Boolean).join(' · '), m?.derp_home?.startsWith('self-')],
 				[_('Overlay address'), [m?.overlay, m?.up ? _('%d peers').format(m.peers?.length ?? 0) : ''].filter(Boolean).join(' · ')]
 			];
 			const revision = JSON.stringify(localFacts);
 			if (revision === factsRevision) return;
 			factsRevision = revision;
-			facts.replaceChildren(...localFacts.map(([label, content, selfHosted, state, connected]) =>
-				E('div', {}, [E('dt', {}, [label, selfHosted ? pill(_('Self-hosted'), true) : '', state ? pill(state, connected) : '']),
+			facts.replaceChildren(...localFacts.map(([label, content, selfHosted]) =>
+				E('div', {}, [E('dt', {}, [label, selfHosted ? pill(_('Self-hosted'), true) : '']),
 					E('dd', { class: 'calabi-fact-value' }, [content || '—'])])));
 		}
 		function updateUsage(s, m) {

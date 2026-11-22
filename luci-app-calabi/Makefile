@@ -2,7 +2,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=luci-app-calabi
 PKG_VERSION:=0.1.0
-PKG_RELEASE:=28
+PKG_RELEASE:=31
 PKG_LICENSE:=Apache-2.0
 PKG_FILE_DEPENDS:=$(CURDIR)/local-input
 
